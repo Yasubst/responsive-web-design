@@ -1,0 +1,140 @@
+/* responsive.css */
+
+/* General styles for small screens */
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  header nav ul li {
+    padding: 10px;
+  }
+
+  .Introduction {
+    padding: 20px 15px;
+  }
+
+  .first-btn {
+    width: 80%;
+  }
+
+  .About {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .flexbox-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-container-1, .flexbox-container-2 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-box {
+    width: 90%;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .sign-up-btn {
+    width: 90%;
+  }
+
+  .form-para {
+    width: 100%;
+  }
+
+  footer {
+    margin: 20px 0 0 0;
+    padding: 15px;
+  }
+}
+
+/* Styles for medium screens */
+@media (max-width: 1024px) {
+  .flexbox-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-container-1, .flexbox-container-2 {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-box {
+    width: 70%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .sign-up-btn {
+    width: 80%;
+  }
+}
+
+/* Fine-tuning for very small screens */
+@media (max-width: 480px) {
+  .head-future {
+    font-size: 1.5rem;
+  }
+
+  .head-about {
+    font-size: 1.5rem;
+  }
+
+  .first-btn {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+
+  .Introduction, .About, footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* For devices up to 400px wide */
+@media (max-width: 400px) {
+  header nav ul {
+    flex-direction: column; /* Stack navigation items */
+    text-align: center;
+  }
+
+  .Introduction, .About, footer {
+    padding: 10px; /* Reduce padding */
+  }
+
+  .first-btn {
+    width: 90%; /* Expand buttons for better touch targets */
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .flexbox-container {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .flexbox-container-1, .flexbox-container-2 {
+    width: 100%; /* Expand elements to fit screen */
+    margin: 0;
+  }
+
+  input, .sign-up-btn {
+    width: 90%; /* Adjust form elements for smaller screens */
+  }
+}

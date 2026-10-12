@@ -1,0 +1,70 @@
+/* Your responsive design styles for the 400px resolution go here */
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 5px;
+    }
+
+    header nav ul {
+        padding: 0; 
+        list-style-type: none; 
+        text-align: center; 
+    }
+
+    header nav ul li {
+        display: block; 
+        margin-bottom: 10px; 
+    }
+
+    .Introduction, .About{
+        padding: 5px; 
+    }
+    
+    .head-future, .head-about, .head2-about {
+        font-size: 1.5rem; 
+    }
+
+    .flexbox-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .flexbox-container-1 {
+        width: 90%;
+    }
+
+    .sign-up-box {
+        width: 90%; 
+        padding: 5px; 
+    }
+
+    input {
+        margin: 0 auto;
+        width: 80%; 
+        padding: 5px; 
+        font-size: 1rem; 
+    }
+
+    .first-btn {
+        width: 50%; 
+        padding: 5px; 
+        font-size: 1rem; 
+    }
+
+   .sign-up-btn {
+        width: 80%; 
+        padding: 5px; 
+        font-size: 1rem; 
+    }
+
+    .form-para {
+        font-size: 0.5rem;
+        width: auto; 
+        padding-top: 5px; 
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+}
